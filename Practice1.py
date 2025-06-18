@@ -1,0 +1,5 @@
+l=int(input('Enter the length of cuboid:'))
+b=int(input('Enter the breadth of cuboid:'))
+h=int(input('Enter the height of cuboid:'))
+area=2*(l*b+b*h+l*h)
+print('Total surface area of cuboid is:',area)
